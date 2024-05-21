@@ -1,0 +1,23 @@
+[package]
+name = "auto_trait_utils"
+version = "0.0.0"
+edition = "2021"
+authors = ["Stargateur <plaskowski.stanislas@gmail.com>"]
+description = "Auto trait utils"
+license = "Zlib"
+repository = "https://github.com/Stargateur/auto_trait_utils"
+readme = "readme.md"
+keywords = ["auto-trait", "utils"]
+categories = ["utils"]
+
+
+include = [
+  "readme.md",
+  "license.md",
+  "Cargo.toml",
+  "build.rs",
+  "rustfmt.toml",
+  "src/**/*.rs",
+]
+
+[dependencies]
